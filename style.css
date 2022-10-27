@@ -1,0 +1,65 @@
+body{
+    font-family: sans-serif;
+}
+
+h2, h3, h4 {
+
+    color: green;
+}
+
+div p{
+
+    color: orange;
+}
+
+main > p {
+
+    color: cyan;
+}
+
+h5+p{
+    color: blueviolet ;
+}
+
+/* speceficity */
+
+#bridgt-heading {
+    color: yellow;
+}
+
+.dark-heading {
+    color: rgb(105, 95, 95);
+}
+
+h1{
+    color: red;
+}
+
+/* INHERITANCE  */
+
+body{
+    font-family: sans-serif;
+    /* color: red; */
+
+}
+
+/* DRY principles */
+
+/* bad example */
+
+h1{
+    color: red;
+}
+
+h2{
+    color: red;
+}
+
+h3{
+    color: red;
+}
+/* good example */
+
+h1, h2, h3 {
+    color: red;
+}
